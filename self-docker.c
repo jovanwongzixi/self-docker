@@ -44,33 +44,15 @@ int main(int argc, char** argv){
 
 	// Initialise unshare flags
 	int UNSHARE_FLAGS = CLONE_NEWNS | CLONE_NEWPID | CLONE_NEWUTS; // | CLONE_NEWNET;
-	unshare(UNSHARE_FLAGS); // line 7677
-
-	int myns_ns = open("/var/run/netns/myns", O_RDONLY);
-    if (myns_ns == -1) {
-        perror("open");
-        exit(EXIT_FAILURE);
-    }
-    if (setns(myns_ns, CLONE_NEWNET) == -1) {
-        perror("setns");
-        close(myns_ns);
-        exit(EXIT_FAILURE);
-    }
-    close(myns_ns);
-
-
-
+	unshare(UNSHARE_FLAGS);
 	printf("unshare\n");
 	// Set host name
 	char* hostname = "version1";
 	sethostname(hostname, strlen(hostname));
 	printf("sethostname\n");
-
 	// Make subtree in new mount namespace private from host namespace
-	mount("", "/", NULL, MS_REC | MS_SLAVE, NULL); // line 8658
-
-
-
+	mount("", "/", NULL, MS_REC | MS_SLAVE, NULL);
+    
 	char * rootfs = "./bundle/rootfs";
 	// mount new rootfs
 	mount(rootfs, rootfs, NULL, MS_REC | MS_PRIVATE | MS_BIND, NULL);
