@@ -5,7 +5,7 @@
 ## Download Project
 ```bash
 git clone https://github.com/jovanwongzixi/self-docker.git
-cd pokemon-wiki
+cd self-docker
 ```
 ## Project Setup
 ```
