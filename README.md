@@ -1,7 +1,7 @@
 # self-docker
 
 ## Description
-A short C program to create a basic Linux container.
+A short C program to create a basic Linux container through isolating namespaces.
 
 ## Download Project
 ```bash
