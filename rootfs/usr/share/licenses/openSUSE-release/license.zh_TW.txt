@@ -1,0 +1,23 @@
+授權合約
+openSUSE® Tumbleweed
+
+這是一份 openSUSE Tumbleweed 授權的非官方 繁體中文翻譯。它並非 openSUSE 
+Tumbleweed 之發佈條款的法定表述 - 只有 openSUSE Tumbleweed 授權的英文原
+#版具有這樣的效力。然而，我們希望這份翻譯能夠幫助 繁體中文讀者更好地理解本授權。
+
+此合約適用於 openSUSE Tumbleweed 及其更新之下載、安裝或使用，且不受交付機制之限制。openSUSE Tumbleweed 係受美國著作權法保護之集合著作。The openSUSE Project 基於下列條款規定，依照 GNU General Public License version 2 授予您此集合著作之授權。openSUSE Tumbleweed 一經下載、安裝或使用，即代表您同意此合約之條款。
+
+openSUSE Tumbleweed 係為模組化之 Linux 作業系統，由數百個軟體元件組成。每個元件的授權合約通常均位於該元件的原始碼中。除下述包含 openSUSE 商標之特定檔案外，元件授權條款均允許您複製及重新分配元件。除特定韌體檔案外，元件之授權條款均允許您以原始碼和二進位程式碼格式複製、修改和重新分配元件。此合約不限制您基於任何特定元件所擁有之授權條款的權利，亦不授予您超過上述條款之權利。
+
+openSUSE Tumbleweed 及其各元件，包括原始碼、文件、外觀、結構和組織，均由 The openSUSE Project 及其他方擁有著作權，且受著作權法律及其他法律保護。openSUSE Tumbleweed 及任何元件，或任何複製部分之所有權，皆屬前述各方擁有，且受適用授權之管轄。openSUSE 商標是 SUSE, LLC. 在美國和其他國家的商標，使用必須經過許可。此合約允許您使用 openSUSE 商標散佈已修改或未經修改之 openSUSE Tumbleweed 副本，前提為您遵守位於 http://en.opensuse.org/Legal 的 The openSUSE Project 之商標準則。在散佈 openSUSE Tumbleweed 時，不論 openSUSE Tumbleweed 是否經過修改，您均必須遵守這些商標準則。
+
+除此合約或特定元件之授權中特別指出的情況，在適用法律所允許之最大範圍內，OPENSUSE Tumbleweed 和元件係依「既有」規格提供，不含任何形式之擔保，包括適售性、所有權、非侵權或適於特定用途之明示或默示之擔保。The openSUSE
+Project 不擔保 openSUSE Tumbleweed 所含之功能將符合您的需求，或 openSUSE Tumbleweed 之作業將完全免於錯誤或完全依照隨附文件所述而顯示。您必須自行承擔使用 OPENSUSE Tumbleweed 之風險。
+
+在適用法律所允許之最大範圍內，對於因使用或無法使用 OPENSUSE Tumbleweed 所造成之任何直接、意外、衍生性傷害、利潤損失或存款損失，即使是在 THE OPENSUSE PROJECT 已知可能造成損失之情況下，THE OPENSUSE PROJECT (及其授權者、子公司和員工) 均不負任何賠償責任。在限制排除或損害限制條款之管轄區域內，THE OPENSUSE PROJECT (及其授權者、子公司和員工) 之總賠償金額不得超過美金 $50 元，若此類限制不受允許，則不得超過所允許之最大範圍。
+
+您必須承認 openSUSE Tumbleweed 受美國出口管理條例 ( 英文簡稱「EAR」) 以及您同意遵守該條例。您不能將 openSUSE Tumbleweed 直接或間接出口及轉口到︰（一）受美國限制出口的國家。；（二）任何您知道或有理由知道該最終用戶將使用 openSUSE Tumbleweed 設計及研製核子、化學或生物武器或火箭系統，太空運載火箭、探空火箭或無人駕駛飛機系統。經有關政府機關按規定或特淮的車輛系統則除外。；或者是（三）任何受美國政府聯邦機構禁止參加美國出口貿易的最終用戶。通過下載或使用 openSUSE Tumbleweed，您將同意上述內容，您亦代表及保證您並非身處當地或受任何此類國家的控制之下，或並非屬於此類國家或此類列表的國民或居民。此外，您有責任遵守您所在司法管轄區的任何當地法律，這可能會影響您進口，出口或使用 openSUSE Tumbleweed 的權利。在出口受制於EAR的物品之前，請諮詢工業和安全局網頁 www.bis.doc.gov。您有責任獲取任何必要的出口許可。
+
+倘若此合約之任何條款被視為無法執行，將不會影響其餘條款之可執行性。此合約將受猶他州及美國法律管轄，但不適用任何衝突法則；「聯合國國際貨物銷售契約慣例」(United Nations Convention on the International Sale of Goods) 在此不適用。此合約是您與 The openSUSE Project 之間針對其標的所簽訂之全部協議與協定，需經雙方以書面簽署之方式始得修改。放棄此合約中之任何權利均應以書面呈現，並由受約束一方之正式授權代表負責簽署。既往或目前因任何侵害或無法執行所產生之任何棄權聲明，均不應視為放棄根據此合約而產生之任何未來權利。美國政府之使用、複製或揭露行為需遵守 FAR 52.227-14 (2007 年 12 月) Alternate III (2007 年 12 月)、FAR 52.227-19 (2007 年 12 月) 或 DFARS 252.227-7013 (b)(3) (1995 年 11 月) 或適當的後續條款中之限制。
+
+Copyright © 2008-2021 The openSUSE Project。保留所有權利。SUSE 和 openSUSE 是 SUSE, LLC. 的商標，後者創立、贊助並設計了 The openSUSE Project。Linux 是 Linus Torvalds 的註冊商標。所有其他商標均為其各自擁有者的財產。

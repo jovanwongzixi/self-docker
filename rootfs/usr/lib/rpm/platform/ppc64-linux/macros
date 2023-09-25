@@ -1,0 +1,125 @@
+# Per-platform rpm configuration file.
+
+#==============================================================================
+# ---- per-platform macros.
+#
+%_arch			ppc64
+%_build_arch		ppc64
+%_vendor		suse
+%_os			linux
+%_gnu			-gnu
+%_target_platform	%{_target_cpu}-%{_vendor}-%{_target_os}
+%optflags		-O2 -g -fmessage-length=0 -D_FORTIFY_SOURCE=2 -fstack-protector -funwind-tables -fasynchronous-unwind-tables
+
+%__isa_name		ppc
+%__isa_bits		64
+%__isa			%{__isa_name}-%{__isa_bits}
+
+# The default transaction color. This value is a set of bits to
+# determine file and dependency affinity for this arch.
+#	0	uncolored (i.e. use only arch as install hint)
+#	1	Elf32 permitted
+#	2	Elf64 permitted
+%_transaction_color	0
+
+#==============================================================================
+# ---- configure macros.
+#
+%_prefix		/usr
+%_exec_prefix		%{_prefix}
+%_bindir		%{_exec_prefix}/bin
+%_sbindir		%{_exec_prefix}/sbin
+%_libexecdir		%{_exec_prefix}/libexec
+%_datarootdir		%{_prefix}/share
+%_datadir		%{_datarootdir}
+%_sysconfdir		/etc
+%_sharedstatedir	/var/lib
+%_localstatedir		/var
+%_lib			lib64
+%_libdir		%{_prefix}/lib64
+%_includedir		%{_prefix}/include
+%_oldincludedir		/usr/include
+%_infodir		/usr/share/info
+%_mandir		/usr/share/man
+%_initddir		%{_sysconfdir}/init.d
+# Deprecated misspelling, present for backwards compatibility.
+%_initrddir		%{_initddir}
+%_rundir		/run
+
+%_defaultdocdir		%{_datadir}/doc
+
+# Maximum number of CPU's to use when building, 0 for unlimited.
+#%_smp_ncpus_max 0
+
+%_smp_build_ncpus %([ -z "$RPM_BUILD_NCPUS" ] \\\
+	&& RPM_BUILD_NCPUS="%{getncpus}"; \\\
+        ncpus_max=%{?_smp_ncpus_max}; \\\
+        if [ -n "$ncpus_max" ] && [ "$ncpus_max" -gt 0 ] && [ "$RPM_BUILD_NCPUS" -gt "$ncpus_max" ]; then RPM_BUILD_NCPUS="$ncpus_max"; fi; \\\
+        echo "$RPM_BUILD_NCPUS";)
+
+%_smp_mflags -j%{_smp_build_ncpus}
+
+# Maximum number of threads to use when building, 0 for unlimited
+#%_smp_nthreads_max 0
+
+%_smp_build_nthreads %{_smp_build_ncpus}
+
+#==============================================================================
+# ---- Build policy macros.
+#
+#---------------------------------------------------------------------
+#	Expanded at beginning of %install scriptlet.
+#
+
+%__spec_install_pre %{___build_pre}\
+    %{__rm} -rf "%{buildroot}"\
+    %{__mkdir_p} "%{dirname:%{buildroot}}"\
+    %{__mkdir} "%{buildroot}"\
+%{nil}
+
+#---------------------------------------------------------------------
+#	Expanded at end of %install scriptlet.
+#
+
+%__arch_install_post   %{nil}
+
+# Standard brp-macro naming:
+# convert all '-' in basename to '_', add two leading underscores.
+%__brp_compress %{_rpmconfigdir}/brp-compress %{?_prefix}
+%__brp_strip %{_rpmconfigdir}/brp-strip %{__strip}
+%__brp_strip_comment_note %{_rpmconfigdir}/brp-strip-comment-note %{__strip} %{__objdump}
+%__brp_strip_static_archive %{_rpmconfigdir}/brp-strip-static-archive %{__strip}
+%__brp_elfperms %{_rpmconfigdir}/brp-elfperms
+%__brp_remove_la_files %{_rpmconfigdir}/brp-remove-la-files
+
+%__os_install_post    \
+    %{?__brp_compress} \
+    %{?__brp_elfperms} \
+    %{?__brp_strip} \
+    %{?__brp_remove_la_files} \
+%{nil}
+
+%__spec_install_post\
+    %{?__debug_package:%{__debug_install_post}}\
+    %{__arch_install_post}\
+    %{__os_install_post}\
+%{nil}
+
+#---------------------------------------------------------------------
+#        Expanded at end of %prep
+#
+%__id_u          %{__id} -u
+%__chown_Rhf     %{__chown} -Rhf
+%__chgrp_Rhf     %{__chgrp} -Rhf
+%_fixowner       [ `%{__id_u}` = '0' ] && %{__chown_Rhf} root
+%_fixgroup       [ `%{__id_u}` = '0' ] && %{__chgrp_Rhf} root
+%_fixperms       %{__chmod} -Rf a+rX,u+w,g-w,o-w
+
+#---------------------------------------------------------------------
+#        Expanded at start of %build
+#
+%__spec_build_pre %{___build_pre}\
+%{?buildroot:  %__rm -rf "$RPM_BUILD_ROOT"\
+  %__mkdir_p `dirname "$RPM_BUILD_ROOT"`\
+  %__mkdir "$RPM_BUILD_ROOT"\
+}

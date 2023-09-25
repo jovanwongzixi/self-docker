@@ -1,0 +1,18 @@
+## Path:        System/Security/Permissions
+## Description: Configuration of permissions on the system
+## Type:        string
+## Default:     "easy local"
+#
+# Permission settings to use. By default 'easy', 'secure' and
+# 'paranoid' exist. You may define your own though.
+#
+PERMISSION_SECURITY="easy local"
+
+## Description: Use filesystem capabilities for more finegrained permission handling
+## Type:        yesno
+## Default:     "yes"
+#
+# Flag whether to use filesystem capabilities for finegrained
+# access control (compared to setuid) or not.
+#
+PERMISSION_FSCAPS=""

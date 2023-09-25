@@ -1,0 +1,76 @@
+许可协议
+openSUSE® Tumbleweed
+
+本文是 openSUSE Tumbleweed 许可证的简体中文版非官方翻译。本协议
+不是 openSUSE Tumbleweed 分发条款的法律声明 - 只有 openSUSE Tumbleweed 
+许可证的原始英文文本才能作为其分发条款的法律声明。但是，我们
+希望此翻译可以帮助简体中文读者更好地理解许可证。
+
+本协议约束用户对 openSUSE Tumbleweed 的下载、安装或使用及其更新，
+与交付机制无关。openSUSE Tumbleweed 是一项集体作品，受美国版权法的
+保护。根据以下条款，The openSUSE Project 向用户授予此集体作品的
+许可证，该许可证遵从GNU 通用公共许可证第二版的规定。下载、安装或
+使用 openSUSE Tumbleweed，即表示用户同意本协议的条款。
+
+openSUSE Tumbleweed 是一个模块化的 Linux 操作系统，由数百个软件组件
+构成。通常情况下，各个组件的源代码中均含有该组件的许可协议。除以下
+所述的某些包含“openSUSE”商标的文件之外，组件的许可条款允许用户对
+组件进行复制和再分发。除了某些固件文件可能例外，组件的许可条款允许
+用户以源代码和二进制代码形式对组件进行复制、修改和再分发。本协议
+不限制用户根据任何具体组件的许可条款享有的权利，也没有授予用户超出
+这些许可条款的任何权利。
+
+openSUSE Tumbleweed 及其所有组件，包括源代码、文档、外观、结构和
+组织，由 The openSUSE Project 和其他相关方享有版权，并受版权法和
+其他相关法律的保护。openSUSE Tumbleweed 及其任何组件或其任何副本的
+所有权按照适用的许可证，归属前述或其许可证出让方所有。“openSUSE”
+商标是 SUSE, LLC. 在美国和其他国家/地区的商标，只有经过许可才能
+使用。本协议允许用户使用“openSUSE Tumbleweed”商标分发未经修改或
+经过修改的 openSUSE 副本，前提是用户需遵守 The openSUSE Project 
+在 http://www.opensuse.org/Legal 上发布的商标使用准则。无论 
+openSUSE Tumbleweed 是否经过修改，用户在分发 openSUSE Tumbleweed 时
+都必须遵守这些商标使用准则。
+
+除非本协议或任何具体组件的许可条款另有特别规定，否则在适用法律
+允许的最大范围内，OPENSUSE Tumbleweed 及其组件均按“现状”提供和
+颁发许可，不提供任何明示或暗示的保证，包括有关适销性、所有权、
+非侵权或针对特定用途的适用性的暗示保证。The openSUSE Project 
+不保证 openSUSE Tumbleweed 所包含的功能符合用户的要求，也不保证 
+openSUSE Tumbleweed 的运行绝对不发生错误或完全按照所附文档说明
+进行显示。用户需自行承担使用 OPENSUSE Tumbleweed 的风险。
+
+在适用法律允许的最大范围内，对于因用户使用或无法使用 OPENSUSE Tumbleweed 
+而造成的任何损害，包括直接损害、偶发或继发损害、利润损失、存款损失，
+THE OPENSUSE PROJECT（及其许可证颁发者、附属机构和雇员）不承担任何责任，
+即使事先已告知 THE OPENSUSE PROJECT 可能会发生此类损害。如有司法辖区
+不允许排除或限制损失，THE OPENSUSE PROJECT（及其许可证颁发者、附属机构
+和雇员）所承担的累计最高赔偿金额为 50 美元，若不允许规定此类限制，则
+累计最高赔偿金额为所允许的最大范围。
+
+您同意 openSUSE Tumbleweed 受制于美国出口管制规定 ("EAR") 且您同意遵守 EAR。
+您不会直接或间接出口或重新出口 openSUSE Tumbleweed 到：(1) 受美国出口管制
+的任何国家; (2) 任何您知道或有理由知道会将 openSUSE Tumbleweed 用于核、化学
+或生物武器，或火箭系统、太空发射装置、探空火箭，或无人飞行系统的任何最终
+用户，除非得到了相关政府机构规定或特许的授权;或 (3) 任何被任何美国政府联邦
+机构禁止参与美国出口交易的最终用户。下载或使用 openSUSE Tumbleweed，表示您
+同意上述条款，您保证您未居住、受控于任何这样的任何列表中的国家或组织，或是
+其国民或代表。另外，您有责任遵守您的管辖权限内的任何可能影响您进出口或使用 
+openSUSE Tumbleweed 的本地法律。在出口受制于 EAR 的物资前，请垂询工业安全局
+网页 www.bis.doc.gov。获取任何必要的出口许可是您的责任。
+
+如果本协议有任何条款被确定为不具有强制执行效力，本协议其余条款的
+强制执行效力不受影响。本协议受美国犹他州的法律及美国法律管辖，而
+不考虑其法律冲突的规定，也不适用《联合国国际货物销售合同公约》。
+本协议阐明了用户与 The openSUSE Project 之间关于主题事宜的完整谅解
+与协议。未经双方书面签字认可，不得进行修改。对于本协议中任何权利的
+放弃，必须以书面形式经受约束方正式授权代表签字，才能生效。对违约或
+未履约引发的任何过往、当前权利的放弃，不得视为对未来依照本协议而应
+具有的权利的放弃。美国政府的使用、复制或披露均受下列文件的限制：
+FAR 52.227-14（2007 年 12 月）Alternate III（2007 年 12 月）、
+FAR_52.227-19（2007 年 12 月）、DFARS 252.227-7013 (b)(3)（1995 年 11 月）
+或适用的后续条款。
+
+Copyright © 2008-2021 The openSUSE Project。保留所有权利。
+“SUSE”和“openSUSE”是 SUSE, LLC. 的商标，SUSE, Inc. 是 
+The openSUSE Project 的发起人和赞助人，并受 The openSUSE Project 指定。
+“Linux”是 Linus Torvalds 的注册商标。其他所有商标都是其相应所有者的财产。

@@ -1,0 +1,12 @@
+#------------------------------------------------------------------------
+# standard build service macros
+#
+%ext_info .gz
+%ext_man .gz
+
+%user_group_add() \
+getent group %{1} >/dev/null || /usr/sbin/groupadd -r %{1} \
+getent passwd %{1} >/dev/null || /usr/sbin/useradd -r -g %{1} -d %{2} -s %{3} -c %{4} %{1} \
+%{nil}
+
+
