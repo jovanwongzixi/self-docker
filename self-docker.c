@@ -48,14 +48,14 @@ int main(int argc, char** argv){
 
 	printf("unshare\n");
 	// Set host name
-	char* hostname = "version1";
+	char* hostname = "host";
 	sethostname(hostname, strlen(hostname));
 	printf("sethostname\n");
 
 	// Make subtree in new mount namespace private from host namespace
 	mount("", "/", NULL, MS_REC | MS_SLAVE, NULL); // line 8658
 
-	char * rootfs = "./bundle/rootfs";
+	char * rootfs = "./rootfs";
 	// mount new rootfs
 	mount(rootfs, rootfs, NULL, MS_REC | MS_PRIVATE | MS_BIND, NULL);
 	// chdir to new rootfs
