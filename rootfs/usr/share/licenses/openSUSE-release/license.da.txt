@@ -1,0 +1,107 @@
+LICENSAFTALE
+openSUSE® Tumbleweed
+
+Dette er en uofficiel dansk oversættelse af openSUSE Tumbleweed-licensen.
+Den erklærer ikke de juridiske distributionsvilkår til openSUSE Tumbleweed - det
+gør kun den originale engelske tekst af openSUSE Tumbleweed-licensen. Vi håber
+dog, at denne oversættelse vil hjælpe dansktalende til bedre at forstå licensen.
+
+Denne aftale regulerer din download, installation eller brug af
+openSUSE Tumbleweed og dens opdateringer, uanset leveringsmekanismen.
+openSUSE Tumbleweed er et samlet værk under USAs lov om ophavsret. Underlagt
+følgende vilkår, tildeler openSUSE-projektet dig en licens til dette samlet værk
+i medhør til GNU General Public License version 2. Ved at downloade, installere
+eller bruge openSUSE Tumbleweed, accepterer du vilkårene i denne aftale.
+
+openSUSE Tumbleweed er et modulært Linux-styresystem bestående af
+hundredvis af softwarekomponenter. Licensaftalen for hver komponent
+er oftest placeret i komponentens kildekode.
+Med undtagelsen af visse filer der indeholder “openSUSE”-væremærket
+beskrevet nedenfor, tillader komponenternes licensvilkår dig
+at kopiere og videredistribuere komponenten.
+Med den potentielle undtagelse af bestemte firmware-filer, tillader
+komponenternes licensvilkår dig at kopiere, modificere og
+videredistribuere komponenten, i både kildekode og binær kode former.
+Denne aftale begrænser ikke dine rettigheder under eller giver dig
+rettigheder som fortrænger licensvilkårene af nogen bestemt komponent.
+
+openSUSE Tumbleweed og hver af dens komponenter, inklusiv kildekoden,
+dokumentationen, udseendet, strukturen og organisationen,er ophavsret
+openSUSE-projektet og andre, og er beskyttet under ophavsret og andre love.
+Titel til openSUSE Tumbleweed og enhver komponent eller til enhver kopi,
+forbliver med den førnævnte eller dens licensgivere, i henhold til den
+gældende licens. "openSUSE"-varemærket er et varemærke tilhørende
+SUSE, LLC. i USA og andre lande og bruges med tilladelse.
+Denne aftale tillader dig at videredistribuere umodificerede eller
+modificerede kopier af openSUSE Tumbleweed som bruger “openSUSE”-varemærket
+på betingelsen af at du følger openSUSE-projekets
+varemærke-retningslinjer placeret på http://en.opensuse.org/Legal.
+Du skal overholde disse varemærke-retningslinjer ved videredistribuering
+af openSUSE Tumbleweed, uanset om openSUSE Tumbleweed er blevet modificeret.
+
+Undtagen som udtrykkeligt erklæret i denne aftale eller en licens til
+en bestemt komponent, I DET STØRST MULIGE OMFANG DET ER TILLADT AF
+GÆLDENDE LOV, GIVES OG LICENSERES OPENSUSE Tumbleweed OG KOMPONENTERNE
+"SOM ER" UDEN GARANTI AF NOGEN SLAGS, ENTEN UDTRYKKELIGT ELLER
+UNDERFORSTÅET, INKLUSIV, DE UNDERFORSTÅET GARANTIER VEDRØRENDE
+SALGBARHED, TITEL, IKKE-KRÆNKELSE ELLER EGNETHED TIL ET BESTEMT FORMÅL.
+openSUSE-projektet garanterer ikke at funktionerne indeholdt i
+openSUSE Tumbleweed vil opfylde dine krav eller at drift af
+openSUSE Tumbleweed vil være fuldkommen fejlfri eller fremstå præcist
+som beskrevet i den ledsaget dokumentation.
+BRUG AF OPENSUSE Tumbleweed SKER PÅ EGET ANSVAR.
+
+I DET STØRST MULIGE OMFANG DET ER TILLADT AF GÆLDENDE LOV, VIL
+OPENSUSE-PROJEKTET (OG DETS LICENSGIVERE, DATTERSELSKABER OG ANSATTE) IKKE
+VÆRE ANSVARLIG OVERFOR DIG FOR SKADER, INKLUSIV DIREKTE-, HÆNDELIGE- ELLER
+FØLGESKADER-, TABTE FORTJENESTER ELLER TABTE OPSPARINGER SOM OPSTÅR UD FRA
+BRUGEN ELLER MANGLENDE EVNE TIL AT BRUGE OPENSUSE Tumbleweed, SELV HVIS
+OPENSUSE-PROJEKTET ER BLEVET RÅDGIVET OM MULIGHEDEN AF SÅDANNE SKADER.
+I EN JURISDIKTION DER BEGRÆNSER UDELUKKELSEN ELLER BEGRÆNSNINGEN AF SKADER,
+ER OPENSUSE-PROJEKTETS (OG DETS LICENSGIVERES, DATTERSELSKABERS OG ANSATTES)
+INDSAMLET RETSLIGE ANSVAR BEGRÆNSET TIL 50 US$ ELLER HVIS EN SÅDAN
+BEGRÆNSNING IKKE AT TILLADT, ER BEGRÆNSET I DET STØRST MULIGE TILLADTE OMFANG.
+
+Du tilkendegiver at openSUSE Tumbleweed er underlagt USAs Export
+Administration Regulations (“EAR”) og du accepterer at efterleve EAR.
+Du vil ikke eksportere eller geneksportere openSUSE Tumbleweed direkte eller 
+indirekte, til: (1) lande som er underladt USAs eksportbegræsninger;
+(2) slutbrugere som du ved eller har grund til at tro vil benytte
+openSUSE Tumbleweed i designet, udviklingen eller produktionen af atom-,
+kemiske eller biologiske våben, eller raketsystemer, rumopsendelsesfartøjer,
+og omgivende raketter, eller ubemandede luftfartøjssystemer, undtagen som
+autoriseret af den relevante statslige myndighed af regulativ eller bestemt
+licens; eller (3) slutbruger som er blevet nægtet i at deltage i USAs
+eksporttransaktioner af nogen føderal agentur af USAs regering. Ved at
+downloade eller bruge openSUSE Tumbleweed, accepterer du det ovenstående og du
+repræsenterer og garanterer at du ikke er placeret i, under styringen af
+eller en national eller bosat i noget sådan land eller på nogen sådan liste.
+Desuden er du ansvarlig for efterlevelse af lokale love i din jurisdiktion
+som kan have indflydelse på din rettighed til at importere, eksportere eller
+bruge openSUSE Tumbleweed. Konsulter venligst webstedet Bureau of Industry
+and Security www.bis.doc.gov inden eksportering af genstande som er underlagt
+EAR. Det er dit ansvar at skaffe eventuelle nødvendige eksportgodkendelser.
+
+Hvis nogen bestemmelse i denne aftale ikke kan håndhæves, vil det ikke
+påvirke håndhæveligheden af de resterende bestemmelser.
+Denne aftale vil være reguleret af lovene i staten Utah og USA,
+uden hensyntagen til nogen konflikt i lovbestemmelser, undtagen
+de Forenede Nationers konvention om aftaler om internationale køb,
+vil ikke gælde. Denne aftale fremsætter hele forståelsen og aftalen
+mellem dig og openSUSE-projektet med hensyn til dets genstandsfelt og
+kan kun ændres skriftligt underskrevet af begge parter.
+Intet afkald af nogen rettighed under denne aftale vil være effektiv
+medmindre skriftligt, underskrevet af en behørig autoriseret repræsentant
+af parten som skal bindes. Intet afkald af nogen tidligere eller
+nuværende rettighed som opstår fra noget brud eller manglende evne til at
+udføre vil blive anset som værende et afkald på fremtidig rettighed som
+opstår under denne aftale. Anvendelse, duplikation eller offentliggørelse
+af USAs regering er underlagt begrænsningerne i FAR 52.227-14 (Dec 2007)
+Alternate III (Dec 2007), FAR 52.227-19 (Dec 2007) eller
+DFARS 252.227-7013(b)(3) (Nov 1995), eller gældende efterfølgende klausuler.
+
+Ophavsret © 2008-2021 openSUSE-projektet. Alle rettigheder forbeholdt.
+"SUSE" og "openSUSE" er registrerede varemærker tilhørende SUSE LLC eller sine
+associerede selskaber, som grundlagde, sponsorerer og er udpeget af, openSUSE-
+projektet. "Linux" er et registreret varemærke tilhørende Linus Torvalds.
+Alle andre varemærker tilhører deres respektive ejere.

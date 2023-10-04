@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Print the size of a file, in bytes.
+#
+stat -c %s "$1"

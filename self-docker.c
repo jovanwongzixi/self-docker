@@ -47,7 +47,7 @@ int main(int argc, char** argv){
 	unshare(UNSHARE_FLAGS);
 	printf("unshare\n");
 	// Set host name
-	char* hostname = "version1";
+	char* hostname = "host";
 	sethostname(hostname, strlen(hostname));
 	printf("sethostname\n");
 	// Make subtree in new mount namespace private from host namespace

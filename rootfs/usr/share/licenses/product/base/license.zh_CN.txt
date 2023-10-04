@@ -1,0 +1,1 @@
+../../openSUSE-release/license.zh_CN.txt

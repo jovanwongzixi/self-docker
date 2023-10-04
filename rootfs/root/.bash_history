@@ -1,0 +1,285 @@
+#1694731538
+ls
+#1694731551
+whoami
+#1694731595
+ps ax
+#1694731666
+exit
+#1694731729
+ls -la
+#1694731731
+ls
+#1694731752
+ps ax
+#1694731778
+ls -la
+#1694731782
+exit
+#1694731898
+cd ../
+#1694731904
+ls -la
+#1694732121
+exit
+#1694732458
+mkdir testlink
+#1694732460
+exit
+#1694774994
+ls
+#1694775020
+exit
+#1694775057
+mkdir testlink
+#1694775058
+ls
+#1694775064
+exit
+#1694775166
+ls
+#1694775172
+mkdir testlink2
+#1694775174
+exit
+#1694782580
+ls
+#1694782587
+exit
+#1694782633
+mkdir test3
+#1694782635
+exit
+#1694782667
+rmdir test3
+#1694782670
+mkdir test4
+#1694782673
+ls
+#1694782675
+exit
+#1694782718
+rmdir test4
+#1694782720
+mkdir test5
+#1694782727
+exit
+#1694782768
+rmdir testlink
+#1694782775
+rmdir testlink2
+#1694782781
+rmdir test5
+#1694782782
+exit
+#1694782796
+ls
+#1694782804
+mkdir test1
+#1694782806
+ls
+#1694782808
+exit
+#1694814792
+ls
+#1694814795
+rmdir test1
+#1694814799
+mkdir test2
+#1694814802
+exit
+#1694815547
+rmdir test2
+#1694815560
+mkdir link
+#1694815562
+ls
+#1694815567
+cd ../
+#1694815571
+exit
+#1694815644
+mount -l
+#1694815696
+mount -B / ./link
+#1694815699
+mount -l
+#1694815708
+exit
+#1694815825
+mount -l
+#1694815830
+ls
+#1694815843
+mount -B / ./link
+#1694815846
+mount -l
+#1694815856
+cd link
+#1694815857
+ls
+#1694815861
+exit
+ls
+cd link
+ls
+cd ../
+id
+whoami
+mount -l
+cd proc
+ls
+mount -B / ./link
+ls -la
+ls
+cd ../
+mount -B / ./link
+ls
+cd link
+ls
+exit
+ls
+exit
+#1694818486
+exit
+#1694818934
+ls
+#1694818941
+mount -l
+#1694818976
+ls link
+#1694818983
+mount -B / ./link
+#1694818986
+ls link
+#1694818995
+cd ../
+#1694818997
+exit
+#1694819088
+whoami
+#1694819089
+id
+#1694819096
+ls
+#1694819099
+ls -la
+#1694819105
+cd proc
+#1694819105
+;s
+#1694819107
+ls
+#1694819114
+ls mounts
+#1694819128
+ls fs
+#1694819135
+ls -la
+#1694819145
+ls cgroups
+#1694819150
+cat cgroups
+#1694819177
+exit
+ls
+cd proc
+exit
+mount -l
+ls
+id
+whoami
+ls proc
+/bin/bash
+ls mnt
+ls bin
+cd ../
+ls
+exit
+#1694820499
+ls
+#1694820502
+cd proc
+#1694820502
+ls
+#1694820642
+exot
+#1694820644
+exit
+ls
+ls proc
+exit
+#1694820679
+exit
+#1694904463
+ls
+#1694904475
+id
+#1694904484
+ls link
+#1694904542
+exit
+#1694986730
+ping google.com
+#1694986849
+apt-get update && apt-get install -y iputils-ping
+#1694986856
+sudo apt-get update
+#1694986904
+ls
+#1694986908
+cd bin
+#1694986910
+ls
+#1694987026
+ip
+#1694987068
+ssh
+#1694987143
+install iputils-ping
+#1694987150
+install -help
+#1694987154
+install --help
+#1694987185
+exit
+#1694987498
+ping
+#1694987502
+ping google.com
+#1694987558
+exit
+#1694990552
+ping google.com
+#1694990566
+ping 127.0.0.1
+#1694990636
+ping 8.8.8.8
+#1694990649
+ping -c 2 8.8.8.8
+#1695049384
+exit
+#1695051216
+ping 8.8.8.8
+#1695143107
+exit
+#1695143115
+ping 8.8.8.8
+#1695143176
+exit
+#1695143422
+ping 8.8.8.8
+#1695143460
+exit
+#1695143539
+ping 8.8.8.8
+#1695463176
+exit
+#1695463771
+ping 8.8.8.8
+#1695465041
+exit
+#1695629394
+ping 8.8.8.8
+#1695629405
+exit

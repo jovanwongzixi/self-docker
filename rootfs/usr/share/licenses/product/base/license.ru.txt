@@ -1,0 +1,1 @@
+../../openSUSE-release/license.ru.txt

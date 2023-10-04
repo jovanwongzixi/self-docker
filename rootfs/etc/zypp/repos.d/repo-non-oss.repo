@@ -1,0 +1,5 @@
+[repo-non-oss]
+name=openSUSE-Tumbleweed-Non-Oss
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/tumbleweed/repo/non-oss/

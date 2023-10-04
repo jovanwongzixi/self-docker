@@ -1,0 +1,123 @@
+CONTRATTO DI LICENZA
+openSUSE® Tumbleweed
+
+Questa è una traduzione non ufficiale in italiano della licenza di openSUSE Tumbleweed.
+Il presente documento non rappresenta una dichiarazione legale dei termini di distribuzione
+di openSUSE Tumbleweed: solo il testo originale inglese della licenza di openSUSE Tumbleweed
+è da ritenersi legalmente vincolante. Tuttavia, auspichiamo che questa traduzione agevoli
+la comprensione agli utenti di lingua italiana.
+
+Questo contratto regola lo scaricamento, l'installazione o l'uso di openSUSE Tumbleweed
+e dei suoi aggiornamenti, indipendentemente dalla modalità di consegna. openSUSE Tumbleweed
+è un lavoro collettivo in base alle leggi degli Stati Uniti sul copyright. In conformità ai termini
+seguenti, The openSUSE Project concede all'utente una licenza per l'uso di questo lavoro
+collettivo secondo quanto definito nella versione della 2 della licenza pubblica generica (GNU).
+Lo scaricamento, l'installazione o l'uso di openSUSE Tumbleweed implica l'accettazione dei
+termini di questo contratto.
+
+openSUSE Tumbleweed è un sistema operativo Linux modulare costituito da
+centinaia di componenti software. Il contratto di licenza di ciascun
+componente è in genere incluso nel codice sorgente del componente. A
+eccezione di alcuni file contenenti il marchio "openSUSE" cui si fa
+riferimento di seguito, i termini della licenza per i componenti
+consentono la copia e la ridistribuzione del componente. Con la
+possibile eccezione di alcuni file del firmware, i termini della licenza
+per i componenti consentono la copia, la modifica e la ridistribuzione
+del componente sia nella forma di codice sorgente che di codice binario.
+Con riferimento ai termini della licenza di qualsiasi componente, il presente
+contratto non limita i diritti dell'utente, né concede diritti sostitutivi.
+
+openSUSE Tumbleweed e ciascuno dei suoi componenti, compresi il codice
+sorgente, la documentazione, l'aspetto, la struttura e
+l'organizzazione, sono oggetto di copyright da parte di The openSUSE
+Project ed altri e sono tutelati dalle leggi sul copyright e di altro
+tipo. In conformità alla licenza applicabile, le parti sopra citate
+rimarranno proprietarie di openSUSE Tumbleweed e di qualsiasi suo
+componente, così come di qualsiasi copia. Il marchio "openSUSE" è di
+proprietà di SUSE, LLC. negli Stati Uniti e in altri paesi e viene
+utilizzato in concessione. Il presente contratto consente la
+distribuzione di copie non modificate o modificate di openSUSE
+Tumbleweed con il marchio "openSUSE" a condizione che vengano seguite
+le indicazioni sul marchio di The openSUSE Project consultabili
+all'indirizzo http://en.opensuse.org/Legal. Indipendentemente da
+eventuali modifiche apportate a openSUSE Tumbleweed, l'utente è tenuto
+a rispettare le indicazioni sul marchio qualora intenda distribuire
+openSUSE Tumbleweed.
+
+A eccezione di quanto espressamente definito in questo contratto o
+nella licenza di un componente specifico, NELLA MISURA MASSIMA
+CONSENTITA DALLE LEGGI IN VIGORE, OPENSUSE Tumbleweed E I COMPONENTI
+SONO FORNITI E CONCESSI IN LICENZA "COSÌ·COME SONO", SENZA GARANZIE DI
+ALCUN TIPO, ESPRESSE O IMPLICITE, INCLUSE LE GARANZIE IMPLICITE DI
+COMMERCIABILITÀ, PROPRIETÀ, NON VIOLAZIONE DEI DIRITTI ALTRUI O
+IDONEITÀ PER UNO SCOPO PARTICOLARE. The openSUSE Project non
+garantisce che le funzioni contenute in openSUSE Tumbleweed soddisfino
+i requisiti dell'utente, né che il funzionamento di openSUSE Tumbleweed
+sia completamente privo di errori o rispetti esattamente quanto
+descritto nella documentazione di accompagnamento. L'USO DI OPENSUSE
+Tumbleweed AVVIENE UNICAMENTE A RISCHIO DELL'UTENTE.
+
+NELLA MISURA MASSIMA CONSENTITA DALLE LEGGI IN VIGORE, THE OPENSUSE
+PROJECT, I SUOI CONCESSORI DI LICENZA, LE SUE CONTROLLATE E I SUOI
+DIPENDENTI NON SARANNO RITENUTI RESPONSABILI PER ALCUN DANNO, COMPRESI
+I DANNI DIRETTI, INCIDENTALI O CONSEQUENZIALI, I MANCATI PROFITTI O I
+MANCATI GUADAGNI, IN RELAZIONE ALL'USO O ALL'IMPOSSIBILITÀ DI
+UTILIZZARE OPENSUSE Tumbleweed, ANCHE QUALORA THE OPENSUSE PROJECT SIA
+STATA AVVISATA DELLA POSSIBILE INCIDENZA DI TALI DANNI.  NELLE
+GIURISDIZIONI CHE DEFINISCONO LIMITI SULL'ESCLUSIONE O SULLA
+LIMITAZIONE DEI DANNI, LA RESPONSABILITÀ GLOBALE DI THE OPENSUSE
+PROJECT, DEI SUOI CONCESSORI DI LICENZA, DELLE SUE CONTROLLATE E DEI SUOI
+DIPENDENTI È LIMITATA A CINQUANTA DOLLARI (US $ 50) O, QUALORA TALE
+LIMITE NON SIA CONSENTITO, ALLA CIFRA MASSIMA CONSENTITA.
+
+Si riconosce che openSUSE Tumbleweed è soggetta alle Export Administration
+Regulations (c.d. "EAR") degli Stati Uniti e il licenziatario dichiara di ottemperare
+all'EAR. Nella fattispecie, il licenziatario è tenuto a non esportare o ri-esportare
+openSUSE Tumbleweed, direttamente o indirettamente, verso: (1) qualsiasi paese
+soggetto a restrizioni alle esportazioni dagli Stati Uniti; (2) qualsivoglia utente
+finale per cui si è a conoscenza o si ha ragione di ritenere che utilizzerà
+openSUSE Tumbleweed per la progettazione, lo sviluppo o la produzione di armi
+nucleari, chimiche e batteriologiche, oppure sistemi con propulsione a razzo,
+veicoli di lancio nello spazio e razzi sonda, o sistemi di veicoli aerei senza
+equipaggio, a meno che tali attività non siano autorizzate per legge o per licenza
+dalla pertinente agenzia governativa; oppure (3) qualsivoglia utente finale
+interdetto alla partecipazione a transazioni di esportazione dagli Stati Uniti da
+parte di una qualsiasi agenzia federale del governo degli Stati Uniti. Scaricando
+o utilizzando openSUSE Tumbleweed si accettano le summenzionate limitazioni e
+si dichiara e garantisce di non comparire in nessuna delle liste sopracitate e di
+non essere sotto il controllo dei paesi di cui al punto 1 oltreché di non avere
+cittadinanza o residenza presso gli stessi. Inoltre, il licenziatario è altresì tenuto
+all'osservanza di qualsivoglia legge locale nella giurisdizione di riferimento che
+possa avere ripercussioni sul proprio diritto di importare, esportare o utilizzare
+openSUSE Tumbleweed. Si prega di consultare la pagina web del Bureau of
+Industry and Security (www.bis.doc.gov) prima di esportare prodotti assoggettati
+all'EAR. È responsabilità del licenziatario ottenere i necessari permessi per
+l'esportazione.
+
+Qualora una delle clausole di questo contratto venga dichiarata non
+applicabile, le restanti clausole rimarranno pienamente vincolanti. Il
+presente contratto è regolato dalle leggi dello Stato dell'Utah e
+degli Stati Uniti, senza riferimento ad alcuna norma sui conflitti
+legislativi. L'applicazione della Convenzione delle Nazioni Unite sui
+contratti di vendita internazionale di beni mobili è espressamente
+esclusa. Il presente contratto definisce tutti i termini dell'accordo
+tra l'utente e The openSUSE Project in relazione all'oggetto del
+contratto stesso e può essere rettificato solo per iscritto mediante
+un accordo firmato da entrambe le parti. Nessuna rinuncia a un
+qualsiasi diritto concesso da questo contratto sarà effettiva a meno
+che non venga riportata per iscritto e firmata da un rappresentante
+autorizzato della parte vincolata. Nessuna rinuncia a un qualsiasi
+diritto passato o presente derivante da violazione o inadempienza
+potrà essere considerata una rinuncia a un qualsiasi diritto futuro
+risultante da questo contratto. L'uso, la duplicazione o la
+divulgazione da parte del Governo degli Stati Uniti è soggetto alle
+limitazioni menzionate nelle FAR 52.227-14 (dicembre 2007) 
+Alternate III (dicembre 2007), FAR 52.227-19 (dicembre 2007) o
+DFARS 252.227-7013 (b)(3) (novembre 1995) o nelle clausole
+sostitutive applicabili.
+
+Copyright © 2008-2021 The openSUSE Project. Tutti i diritti riservati.
+"SUSE" e "openSUSE" sono marchi registrati di SUSE LLC, o sue affiliate,
+che ha fondato e sponsorizza The openSUSE Project e agisce come
+società da esso incaricata. "Linux" è un marchio registrato di Linus
+Torvalds. Tutti gli altri marchi di fabbrica appartengono ai rispettivi proprietari.

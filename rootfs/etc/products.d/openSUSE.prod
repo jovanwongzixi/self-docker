@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product schemeversion="0">
+  <vendor>openSUSE</vendor>
+  <name>openSUSE</name>
+  <version>20230913</version>
+  <release>0</release>
+  <arch>x86_64</arch>
+  <cpeid>cpe:/o:opensuse:opensuse:20230913</cpeid>
+  <productline>openSUSE</productline>
+  <register>
+    <target>openSUSE-Tumbleweed-x86_64</target>
+    <pool>
+    </pool>
+    <updates>
+      <distrotarget arch="x86_64">openSUSE-Tumbleweed-x86_64</distrotarget>
+      <distrotarget arch="s390x">openSUSE-Tumbleweed-s390x</distrotarget>
+      <distrotarget arch="ppc64le">openSUSE-Tumbleweed-ppc64le</distrotarget>
+      <distrotarget arch="aarch64">openSUSE-Tumbleweed-aarch64</distrotarget>
+    </updates>
+  </register>
+  <repositories>
+  </repositories>
+  <updaterepokey>000000000</updaterepokey>
+  <summary>openSUSE Tumbleweed</summary>
+  <shortsummary>openSUSE</shortsummary>
+  <description>openSUSE Tumbleweed is the rolling distribution by the openSUSE.org project.</description>
+  <linguas>
+    <language>cs</language>
+    <language>da</language>
+    <language>de</language>
+    <language>el</language>
+    <language>en</language>
+    <language>en_GB</language>
+    <language>en_US</language>
+    <language>es</language>
+    <language>fr</language>
+    <language>hu</language>
+    <language>it</language>
+    <language>ja</language>
+    <language>pl</language>
+    <language>pt</language>
+    <language>pt_BR</language>
+    <language>ru</language>
+    <language>zh</language>
+    <language>zh_CN</language>
+    <language>zh_TW</language>
+  </linguas>
+  <urls>
+    <url name="releasenotes">http://doc.opensuse.org/release-notes/x86_64/openSUSE/Tumbleweed/release-notes-openSUSE.rpm</url>
+    <url name="repository">http://download.opensuse.org/tumbleweed/repo/oss/</url>
+  </urls>
+  <buildconfig>
+    <producttheme>openSUSE</producttheme>
+    <create_flavors>true</create_flavors>
+  </buildconfig>
+  <installconfig>
+    <defaultlang>en_US</defaultlang>
+    <default_obs_repository_name>openSUSE_Tumbleweed</default_obs_repository_name>
+    <default_obs_download_url>https://download.opensuse.org/repositories</default_obs_download_url>
+    <releasepackage name="openSUSE-release" flag="EQ" version="20230913" release="2495.1"/>
+    <distribution>openSUSE</distribution>
+  </installconfig>
+  <runtimeconfig/>
+</product>
+

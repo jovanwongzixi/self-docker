@@ -1,0 +1,27 @@
+#
+# /etc/permissions.local
+#
+# After editing this file run
+#	chkstat --system --set
+# to apply the changes.
+#
+# This file is used by chkstat (and indirectly by various RPM package scripts)
+# to check or set the modes and ownerships of files and directories in
+# the installation. It has priority over the distribution defaults in
+# /usr/share/permissions.
+#
+# Please see the man page permissions(5) for general usage hints of this and
+# related files. Note that operations like package updates, log rotation or
+# systemd-tmpfiles can reset these file permissions. By default, changes to this
+# file are therefore only really useful to override the distribution default
+# permissions of files shipping with setXid permissions or capabilities.
+#
+# If you want entries for files installed through RPM to also be applied after
+# zypper operations, then you can install the permissions-zypp-plugin.  This is
+# helpful when you are entering permissions in this file that get overwritten
+# by package updates.
+#
+#
+# Format:
+# <file> <owner>:<group> <mode>
+#

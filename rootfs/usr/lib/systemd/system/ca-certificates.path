@@ -1,0 +1,14 @@
+[Unit]
+Description=Watch for changes in CA certificates
+After=local-fs.target
+
+[Path]
+Unit=ca-certificates.service
+PathExists=/etc/pki/trust/.updated
+PathChanged=/etc/pki/trust
+PathChanged=/etc/pki/trust/anchors
+PathChanged=/etc/pki/trust/blacklist
+
+[Install]
+WantedBy=default.target
+
