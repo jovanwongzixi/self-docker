@@ -93,6 +93,8 @@ int main(int argc, char** argv){
 		chdir(rootfs);
 		// set current directory as the root directory
 		syscall(SYS_pivot_root, ".", ".");
+		// unmount old root directory
+		umount2(".", MNT_DETACH);
 		printf("in init process\n");
 
 		pid = fork();
