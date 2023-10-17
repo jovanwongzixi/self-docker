@@ -21,7 +21,7 @@ int main(int argc, char** argv){
 
 	// Create bridge
 	system("ip link add br1 type bridge");
-
+	system("ip link set veth0 master br1");
 	// Set up veth0 and br1
 	system("ip link set dev veth0 up");
 	system("ip link set dev br1 up");
