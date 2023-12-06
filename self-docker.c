@@ -13,9 +13,6 @@
 #include <sys/mount.h>
 
 int main(int argc, char** argv){
-
-	pid_t pid = getpid();
-
 	// Create veth pair
 	system("ip link add veth0 type veth peer name veth1");
 	// Create bridge
