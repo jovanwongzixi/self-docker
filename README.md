@@ -10,7 +10,7 @@ cd self-docker
 ```
 ## Project Setup
 ```bash
-gcc -Wall -o self-docker self-docker.c
+make
 ```
 ## Run Project
 ```bash
