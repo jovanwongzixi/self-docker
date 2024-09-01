@@ -39,10 +39,6 @@ int main(int argc, char** argv){
 	// Add a network translation table
 	system("iptables --table nat -A POSTROUTING -s 10.10.0.0/16 ! -o br1 -j MASQUERADE");
 
-	// Initialise unshare flags
-	int UNSHARE_FLAGS = CLONE_NEWNS | CLONE_NEWPID | CLONE_NEWUTS; // | CLONE_NEWNET;
-	unshare(UNSHARE_FLAGS);
-
 	// search for myns_ns namespace fd to set our network namespace in myns_ns
 	int selfdocker_ns = open("/var/run/netns/selfdocker", O_RDONLY);
 
@@ -58,7 +54,7 @@ int main(int argc, char** argv){
 
     close(selfdocker_ns);
 
-    // Initialise unshare flags
+    	// Initialise unshare flags
 	int UNSHARE_FLAGS = CLONE_NEWNS | CLONE_NEWPID | CLONE_NEWUTS; // | CLONE_NEWNET;
 	unshare(UNSHARE_FLAGS);
 
